@@ -69,7 +69,7 @@ module.exports = {
         /* General Rules */
         /*****************/
         'one-var': ['error', { initialized: 'never' }], // 한줄에 변수 한개 정의. 콤마를 이용해서 변수 정의시 에러
-        // eqeqeq: 'error', // 동치 연산 허용 불가, 일치 연산만 허용
+        eqeqeq: 'error', // 동치 연산 허용 불가, 일치 연산만 허용
         curly: ['error', 'multi-line'], // if 조건 한줄처리할때만 블럭 없어도됨
         'dot-location': ['error', 'property'], // 점 전후에는 일관된 개행 시행
         'dot-notation': 'error', // 필요할때만  점 표기법 허용
