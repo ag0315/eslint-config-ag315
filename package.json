@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ag315",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "author": "JongCheolYu <ag315@yeoboyacorp.com>",
   "description": "Eslint rules in server programming with node.js",
   "repository": {
